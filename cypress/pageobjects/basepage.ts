@@ -1,7 +1,7 @@
 /// <reference types = "cypress"/>
 
 export class BasePage {
-    navigate(destinationUrl){
+    navigate(destinationUrl: string){
         cy.visit(destinationUrl);
     }
 }

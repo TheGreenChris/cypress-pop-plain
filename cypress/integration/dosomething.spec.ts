@@ -1,3 +1,5 @@
+/// <reference path="../support/index.d.ts" />
+
 import { DefaultPage } from "../pageobjects/defaultpage";
 
 describe('default actions', ()=>{
